@@ -204,7 +204,7 @@
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!-- ## activity_main.xml -->
-    <string name="device_nformation">デバイス情報</string>
+    <string name="device_information">デバイス情報</string>
     <string name="engine_status">エンジンの状態</string>
     <string name="model_settings">モデル設定</string>
     <string name="history_lookback">履歴の参照範囲:</string>
