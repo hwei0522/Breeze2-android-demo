@@ -190,6 +190,10 @@
     <string name="delete">消去</string>
     <string name="cancel">キャンセル</string>
 
+    <string name="please_wait_for_the_response_to_finish">応答が完了するまでお待ちください</string>
+    <string name="type_a_message">メッセージを入力してください...</string>
+
+
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!-- ## activity_audio_chat.xml -->
     <string name="choose_voice">音声を選択</string>
