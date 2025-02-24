@@ -205,7 +205,7 @@
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!-- ## activity_main.xml -->
-    <string name="device_nformation">උපාංග තොරතුරු</string>
+    <string name="device_information">උපාංග තොරතුරු</string>
     <string name="engine_status">එන්ජින් තත්ත්වය</string>
     <string name="model_settings">ආදර්ශ සැකසුම්</string>
     <string name="history_lookback">ඉතිහාස සොයා බැලීම:</string>

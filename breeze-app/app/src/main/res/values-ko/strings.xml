@@ -205,7 +205,7 @@
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!-- ## activity_main.xml -->
-    <string name="device_nformation">기기 정보</string>
+    <string name="device_information">기기 정보</string>
     <string name="engine_status">엔진 상태</string>
     <string name="model_settings">모델 설정</string>
     <string name="history_lookback">대화 기록 확인:</string>
