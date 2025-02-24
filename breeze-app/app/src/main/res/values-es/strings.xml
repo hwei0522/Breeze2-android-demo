@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breeze2-demo</string>
+    <string name="file_provider_authority">${file_provider_authority}</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## IntroDialog.java -->
+    <!-- 開場對話框標題 -->
+    <string name="intro_dialog_title_warning">⚠️ 破 Demo 版注意事項</string>
+    <string name="intro_dialog_title_current_features">現在能用的破功能</string>
+    <string name="intro_dialog_title_system_requirements">手機太爛就別來</string>
+
+    <!-- 開場對話框第 1 頁 : Demo 版警告 -->
+    <string name="intro_description">
+        <![CDATA[
+    這 APP 是陳沐希老大（aka 我）帶頭做的，<br/>
+    讓你<b>完全離線玩 AI</b>，不用擔心什麼資料外流，<br/>
+    因為反正你的資料根本沒人在乎。<br/><br/>
+    這專案還在發育中，偶爾崩掉很正常，<br/>
+    你要是看到 bug，忍一下，沒必要鬼叫。<br/><br/>
+    想吐槽？想嗆？想幫忙？<br/>
+    來 GitHub 戰啊！<br/>
+    <a href="https://github.com/mtkresearch/Breeze2-android-demo">Breeze2-android-demo</a>
+    ]]>
+    </string>
+
+    <!-- 開場對話框第 2 頁 : 現有功能 -->
+    <string name="build_features_description">
+        <![CDATA[
+    • 本地 LLM 老 AI 聊天:<br/>
+    &nbsp;&nbsp;&nbsp;- 離線陪聊，讓 AI 聽你發牢騷<br/>
+    &nbsp;&nbsp;&nbsp;- 支援 CPU 跟 MTK NPU，跑起來飛快 (才怪)<br/>
+    &nbsp;&nbsp;&nbsp;- 隱私 NO.1：你的破事不會傳出去！<br/>
+    &nbsp;&nbsp;&nbsp;- 內建機器人講話功能 (TTS)，還不快跪謝！
+    <br/><br/>
+    • 未來功能 (等我們想開了再做)：<br/>
+    &nbsp;&nbsp;&nbsp;- AI 看圖說故事 (VLM)，但你可能畫得很爛<br/>
+    &nbsp;&nbsp;&nbsp;- AI 聽你說話 (ASR)，當然，你咬字要清楚
+    <br/><br/>
+    你還不快來一起搞事情？！
+    ]]>
+    </string>
+
+    <!-- 開場對話框第 3 頁 : 系統需求 -->
+    <!-- RAM 狀態 -->
+    <string name="ram_passed">✅ 恭喜！RAM 夠格，勉強能用</string>
+    <string name="ram_error">⛔️ 哇靠！你 RAM 這麼少 (%1$sGB)？比最低需求 %2$sGB 還低！別來亂啦！</string>
+
+    <!-- 儲存空間狀態 -->
+    <string name="storage_sufficient">✅ 空間還 OK (%1$sGB)，先讓你過關</string>
+    <string name="storage_error">⛔️ 你手機是養倉鼠的嗎？空間只剩 %1$sGB，清乾淨再說！</string>
+
+    <!-- 模型檔狀態 -->
+    <string name="model_found">✅ 很棒！模型檔有下載，給你顆糖</string>
+    <string name="model_missing">⛔️ 你模型呢？這沒模型怎麼跑？憑愛發電嗎？</string>
+
+    <!-- 警告訊息 -->
+    <string name="warning_ram"><![CDATA[⚠️ 你手機 RAM 低得可憐，這樣還想玩 AI？省省吧！<br/>]]></string>
+    <string name="warning_model_missing"><![CDATA[⚠️ 沒有模型檔 (%1$s 或 %2$s)，要 AI 變魔術嗎？<br/>]]></string>
+    <string name="warning_storage"><![CDATA[⚠️ 空間剩 %1$sGB？連 AI 都覺得擠，去清出 %2$sGB 再滾回來！<br/>]]></string>
+    <string name="warning_footer"><![CDATA[這 APP 還沒做好，能跑就偷笑，不能跑就滾去升級手機！<br/>]]></string>
+
+    <!-- 狀態總結 -->
+    <string name="status_summary">
+        <![CDATA[
+    • RAM 記憶體:<br/>
+    &nbsp;&nbsp;&nbsp;至少要: %1$sGB+<br/>
+    &nbsp;&nbsp;&nbsp;你這台只有: %2$sGB<br/>
+    &nbsp;&nbsp;&nbsp;狀態: %3$s<br/><br/>
+
+    • 模型檔案:<br/>
+    &nbsp;&nbsp;&nbsp;存放位置: %4$s<br/>
+    &nbsp;&nbsp;&nbsp;最低需求: %5$s 或 %6$s<br/>
+    &nbsp;&nbsp;&nbsp;狀態: %7$s<br/><br/>
+
+    • 儲存空間:<br/>
+    &nbsp;&nbsp;&nbsp;至少要: %8$sGB 以上<br/>
+    &nbsp;&nbsp;&nbsp;你這台只剩: %9$sGB<br/>
+    &nbsp;&nbsp;&nbsp;狀態: %10$s<br/><br/>
+
+    %11$s
+    <br/>
+    要跑順的話，拜託把需求都搞定再來。
+    ]]>
+    </string>
+
+    <!-- 開場對話框按鈕 -->
+    <string name="next">下一步啦</string>
+    <string name="got_it">拎北知道了！</string>
+    <string name="requirements_not_met">手機太爛，達不到要求</string>
+    <string name="cannot_proceed">這樣還想跑？想太多：</string>
+    <string name="insufficient_ram">• 你 RAM 這麼少？至少要 %1$dGB 啦！</string>
+    <string name="insufficient_storage">• 這啥垃圾手機？空間連 %1$dGB 都沒有！</string>
+    <string name="missing_models">• AI 模型 (%1$s 或 %2$s) 找不到，你是存心為難我？</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## ChatActivity.java -->
+    <string name="thinking">拎北在思考，等一下啦...</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_chat.xml -->
+    <string name="view_chat_history">看看你們聊過啥</string>
+    <string name="loading">吼呦 讀取中 等一下啦～</string>
+    <string name="new_conversation">來！新話題！</string>
+    <string name="app_logo">這 APP 的霸氣 LOGO</string>
+    <string name="how_can_i_help_you">拎北可以幫你啥？</string>
+    <string name="type_in_here">打字啦！不要只會滑手機</string>
+    <string name="chat_history">前面聊的那些鬼話</string>
+    <string name="send_message">發送！咻～～</string>
+    <string name="voice_input">用嘴巴講話啦</string>
+    <string name="add_attachments">加點東西進來</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## intro_page_layout.xml -->
+    <string name="scroll_for_more">滑啊滑啊 還有更多</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## ChatMediaHandler.java -->
+    <string name="failed_to_start_recording">錄音爆炸了，自己檢查</string>
+    <string name="failed_to_process_file">這啥爛檔案？處理不了！</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## UiUtils.java -->
+    <string name="error_showing_image_preview">hmm 圖片壞掉了？</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## AudioChatActivity.java -->
+    <string name="camera_switched">相機換成 %1$s 了</string>
+    <string name="camera_front">拗ㄐㄧㄥˊの</string>
+    <string name="camera_back">拗ㄅㄧㄚˇの</string>
+    <string name="menu_options">菜單選項</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## MainActivity.java -->
+    <string name="failed_to_initialize">初始化爆掉了：</string>
+    <string name="model_directory_not_found">找不到模型資料夾，這樣怎麼跑？</string>
+    <string name="no_llm_models_found">AI 模型呢？連 %1$s 或 %2$s 都沒有，想用 AI 唬爛？</string>
+    <string name="please_select_a_model_first">先選個模型再來吧！</string>
+    <string name="waiting_for_services_to_initialize">等系統慢慢開機，不要急</string>
+    <string name="speech_recognition_requires_audio_permission">要用語音辨識？先給麥克風權限啦！</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## ChatActivity.java -->
+    <!-- Toast.makeText -->
+    <string name="error_initializing_services">服務初始化失敗，這也能出錯？我的心臟快跳出來了</string>
+    <string name="initializing_model_with">初始化模型中，準備好迎接 AI 派對了嗎？</string>
+    <string name="speech_recognition_is_disabled">語音識別已關閉，結果連跟我唸都不行！</string>
+    <string name="error_generating_response">生成回應出錯，我的腦袋都懵了</string>
+    <string name="stopping_generation">停下來！停止生成...這都可以停嗎？</string>
+    <string name="error_analyzing_image">分析圖片失敗，是圖像拒絕合作嗎？</string>
+    <string name="ASR_service_not_ready">語音識別服務還沒上線，等等再說吧</string>
+    <string name="error_launching_camera">啟動相機出錯，這相機是我藏起來的嗎？</string>
+    <string name="no_recordings_found">找不到錄音，真的錄過嗎？還是夢境</string>
+    <string name="recording_deleted">錄音已刪除，和記憶一起消失</string>
+    <string name="camera_permission_required">相機權限不夠，別想自拍</string>
+    <string name="mic_permission_required">麥克風權限來點，語音沒開放</string>
+    <string name="text_to_speech_service_not_available">文字轉語音服務無法使用，聽不到我說話了！</string>
+    <string name="text_to_speech_is_still_initializing">文字轉語音還在等熱身，別急我這就來</string>
+    <string name="converting_text_to_speech">正在轉換文字到語音...準備好聽我唱歌了嗎？</string>
+    <string name="error_playing_audio">播放音頻失敗，耳朵好像要炸了</string>
+    <string name="error_starting_audio_playback">播放音頻出錯，該不會又出事了吧</string>
+    <string name="failed_to_reinitialize_llm">LLM 重啟失敗，這模型太倔強</string>
+    <string name="initializing_model">初始化模型中，等我一點時間</string>
+    <string name="failed_to_initialize_model">初始化模型失敗，模型也玩兒起來了</string>
+    <string name="error_initializing_model">初始化模型出錯，我都無話可說</string>
+    <string name="model_service_disconnected">模型服務斷線，網絡又不給力了</string>
+    <string name="ars_initialization_failed">ASR 初始化失敗，語音變成噪音了</string>
+    <string name="error_initializing_asr">初始化 ASR 出錯，語音不靈了</string>
+    <string name="initializing_text_to_speech">初始化語音合成中，音樂會開始了嗎？</string>
+    <string name="text_to_speech_ready">語音合成準備好，快來聽我說話！</string>
+    <string name="failed_to_initialize_text_to_speech">語音合成初始化失敗，這怎麼回事，AI也有脾氣</string>
+    <string name="error_initialize_text_to_speech">初始化語音合成出錯，這次是真的崩潰</string>
+    <string name="no_histories_selected">沒有選擇歷史，這記憶玩消失嗎</string>
+    <string name="selected_histories_deleted">選中的歷史已刪除，當作不存在</string>
+    <string name="history_deleted">歷史已刪除，這一切都不重要了</string>
+    <string name="more_taps">%1$d 次再點擊，幾個小時都能過</string>
+    <string name="text_copied_to_clipboard">文字已複製到剪貼簿，別再問我</string>
+    <string name="image_saved_to_pictures">圖片已保存到相冊，別弄丟了！</string>
+    <string name="error_saving_image">保存圖片出錯，這不科學啊</string>
+
+    <!-- 綁定模型名稱顯示 -->
+    <string name="unknown_model">未知模型，這真的是從未見過</string>
+    <string name="model_error">模型錯誤，這是模型的反叛？</string>
+    <string name="model_disconnected">模型斷線了，這網絡也太暴力</string>
+    <string name="initializing">初始化中，準備好迎接未來的奇蹟</string>
+    <string name="model_not_available">模型不可用，這是在跟我作對嗎</string>
+
+    <string name="delete_selected_histories">刪除選中的歷史，手下留情</string>
+    <string name="check_delete">確定要刪除選中的 %1$d 條歷史？狠心嗎</string>
+    <string name="delete">刪除，這就是你的決定</string>
+    <string name="cancel">取消，說得好像能停止</string>
+
+    <string name="please_wait_for_the_response_to_finish">等一下！回應正在準備中，耐心等候，不能著急～</string>
+    <string name="type_a_message">快打字！消息等不及了，這也太冷場了吧</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_audio_chat.xml -->
+    <string name="choose_voice">選擇聲音，讓我聽聽是哪位大咖</string>
+    <string name="toggle_camera">開關相機，來個笑容</string>
+    <string name="toggle_microphone">開關麥克風，來一段嗓音戲法</string>
+    <string name="more_options">更多選項，選到你懷疑人生</string>
+    <string name="close">關閉，打開就是下一場災難</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_chat.xml -->
+    <string name="message">訊息，還不發給我</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_main.xml -->
+    <string name="device_information">設備資訊，告訴我你的秘密</string>
+    <string name="engine_status">引擎狀態，發動吧</string>
+    <string name="model_settings">模型設置，準備好調皮了嗎</string>
+    <string name="history_lookback">歷史回顧：像看劇一樣好看</string>
+    <string name="max_sequence_Length">最大序列長度：多長都行</string>
+    <string name="temperature">溫度：就像這天氣那麼無聊</string>
+    <string name="llm_backend">LLM 後端：已就位</string>
+    <string name="llm_engine">LLM 引擎：超級強</string>
+    <string name="vlm_engine">VLM 引擎：來自未來</string>
+    <string name="asr_engine">ASR 引擎：語音完美接入</string>
+    <string name="tts_engine">TTS 引擎：語音變音樂</string>
+    <string name="start_chat">開始聊天，請不要太激動</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## dialog_voice_selection.xml -->
+    <string name="start_new_chat">開始新對話，舊的都可以丟掉</string>
+    <string name="choose_a_voice">選擇一個聲音，誰來給我驚喜</string>
+
+
+</resources>
