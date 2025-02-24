@@ -191,6 +191,9 @@
     <string name="delete">삭제</string>
     <string name="cancel">취소</string>
 
+    <string name="please_wait_for_the_response_to_finish">응답이 완료될 때까지 기다려주세요</string>
+    <string name="type_a_message">메시지를 입력하세요...</string>
+
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!-- ## activity_audio_chat.xml -->
     <string name="choose_voice">음성 선택</string>
