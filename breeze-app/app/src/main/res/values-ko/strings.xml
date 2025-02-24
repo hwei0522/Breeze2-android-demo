@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breeze2-demo</string>
+    <string name="file_provider_authority">${file_provider_authority}</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## IntroDialog.java -->
+    <!-- Intro Dialog Title -->
+    <string name="intro_dialog_title_warning">데모 버전 경고</string>
+    <string name="intro_dialog_title_current_features">현재 기능</string>
+    <string name="intro_dialog_title_system_requirements">시스템 요구 사항</string>
+
+    <!-- Intro Dialog Page 1 : Demo Version Warning -->
+    <string name="intro_description">
+    <![CDATA[
+    이 프로젝트는 AI 기능을 <b>완전히 오프라인</b>으로 사용할 수 있도록 하여,
+    개인정보 보호 걱정 없이 스마트폰에서 AI를 경험할 수 있도록 돕는 커뮤니티 기반 프로젝트입니다.
+    <br/><br/>
+    시작 단계의 프로젝트로, 개발자 및 AI 애호가들의 참여를 환영합니다.
+    현재 지속적으로 개선 중이므로 일부 안정성 문제가 발생할 수 있습니다.
+    <br/><br/>
+    기여하거나, 문제를 제기하거나, PR을 제출하고 싶다면 GitHub 저장소를 방문해 주세요:
+    <br/>
+    <a href="https://github.com/mtkresearch/Breeze2-android-demo">Breeze2-android-demo</a>
+    ]]>
+    </string>
+
+    <!-- Intro Dialog Page 2 : Current Features -->
+    <string name="build_features_description">
+    <![CDATA[
+    • 로컬 LLM 채팅:<br/>
+    &nbsp;&nbsp;&nbsp;- 완전히 오프라인 AI 채팅<br/>
+    &nbsp;&nbsp;&nbsp;- CPU 및 MTK NPU 지원<br/>
+    &nbsp;&nbsp;&nbsp;- 개인정보 보호 우선: 모든 데이터는 기기 내에 저장<br/>
+    &nbsp;&nbsp;&nbsp;- 음성 합성(Text-to-Speech) 지원
+    <br/><br/>
+    • 향후 기능 (곧 제공 예정):<br/>
+    &nbsp;&nbsp;&nbsp;- 비전 이해 (VLM)<br/>
+    &nbsp;&nbsp;&nbsp;- 음성 입력 지원 (ASR)
+    <br/><br/>
+    개인정보 보호 중심의 AI 환경을 함께 만들어 갑시다!
+    ]]>
+    </string>
+
+    <!-- Intro Dialog Page 3 : System Requirements -->
+    <!-- RAM status -->
+    <string name="ram_passed">✅ 통과</string>
+    <string name="ram_error">⛔️ 오류: 메모리 부족 (%1$sGB &lt; 최소 %2$sGB 필요)</string>
+
+    <!-- memory status -->
+    <string name="storage_sufficient">✅ 충분함 (%1$sGB 사용 가능)</string>
+    <string name="storage_error">⛔️ 오류: 저장 공간 부족 (사용 가능: %1$sGB)</string>
+
+    <!-- model status -->
+    <string name="model_found">✅ 모델 발견</string>
+    <string name="model_missing">⛔️ 모델 없음</string>
+
+    <!-- warning message -->
+    <string name="warning_ram"><![CDATA[⚠️ 경고: 기기가 최소 RAM 요구 사항을 충족하지 않습니다.<br/>]]></string>
+    <string name="warning_model_missing"><![CDATA[⚠️ 경고: 필수 모델 파일(%1$s 또는 %2$s)이 없습니다.<br/>]]></string>
+    <string name="warning_storage"><![CDATA[⚠️ 경고: 저장 공간이 부족합니다 (%1$sGB &lt; 최소 %2$sGB 필요).<br/>]]></string>
+    <string name="warning_footer"><![CDATA[애플리케이션이 정상적으로 동작하지 않을 수 있습니다.<br/>]]></string>
+
+    <!-- status summary -->
+    <string name="status_summary">
+     <![CDATA[
+    • RAM 메모리:<br/>
+    &nbsp;&nbsp;&nbsp;필요 용량: %1$sGB+<br/>
+    &nbsp;&nbsp;&nbsp;사용 중인 기기: %2$sGB<br/>
+    &nbsp;&nbsp;&nbsp;상태: %3$s<br/><br/>
+
+    • 모델 파일:<br/>
+    &nbsp;&nbsp;&nbsp;위치: %4$s<br/>
+    &nbsp;&nbsp;&nbsp;필수 파일: %5$s 또는 %6$s<br/>
+    &nbsp;&nbsp;&nbsp;상태: %7$s<br/><br/>
+
+    • 저장 공간:<br/>
+    &nbsp;&nbsp;&nbsp;필요 공간: %8$sGB+ 여유 공간<br/>
+    &nbsp;&nbsp;&nbsp;사용 가능 공간: %9$sGB<br/>
+    &nbsp;&nbsp;&nbsp;상태: %10$s<br/><br/>
+
+    %11$s
+    <br/>
+    최적의 성능을 위해 모든 요구 사항을 충족해 주세요.
+    ]]>
+    </string>
+
+    <!-- Intro Dialog util -->
+    <string name="next">다음</string>
+    <string name="got_it">알겠습니다</string>
+    <string name="requirements_not_met">요구 사항이 충족되지 않음</string>
+    <string name="cannot_proceed">진행할 수 없음:</string>
+    <string name="insufficient_ram">• RAM 부족 (최소 %1$dGB 필요)</string>
+    <string name="insufficient_storage">• 저장 공간 부족 (최소 %1$dGB 필요)</string>
+    <string name="missing_models">• 필수 모델 파일(%1$s 또는 %2$s)이 없습니다</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## ChatActivity.java -->
+    <string name="thinking">생각 중...</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_chat.xml -->
+    <string name="view_chat_history">채팅 기록 보기</string>
+    <string name="loading">로딩 중...</string>
+    <string name="new_conversation">새 대화</string>
+    <string name="app_logo">앱 로고</string>
+    <string name="how_can_i_help_you">어떻게 도와드릴까요?</string>
+    <string name="type_in_here">여기에 입력하세요...</string>
+    <string name="chat_history">채팅 기록</string>
+    <string name="send_message">메시지 보내기</string>
+    <string name="voice_input">음성 입력</string>
+    <string name="add_attachments">첨부 파일 추가</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## intro_page_layout.xml -->
+    <string name="scroll_for_more">더 보려면 스크롤하세요</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## ChatMediaHandler.java -->
+    <string name="failed_to_start_recording">녹음을 시작하지 못했습니다</string>
+    <string name="failed_to_process_file">파일을 처리하지 못했습니다</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## UiUtils.java -->
+    <string name="error_showing_image_preview">이미지 미리 보기를 표시하는 중 오류 발생</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## AudioChatActivity.java -->
+    <string name="camera_switched">%1$s 카메라로 전환됨</string>
+    <string name="camera_front">전면</string>
+    <string name="camera_back">후면</string>
+    <string name="menu_options">메뉴 옵션</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## MainActivity.java -->
+    <string name="failed_to_initialize">초기화 실패: </string>
+    <string name="model_directory_not_found">모델 디렉터리를 찾을 수 없습니다</string>
+    <string name="no_llm_models_found">LLM 모델을 찾을 수 없습니다. %1$s 또는 %2$s 모델이 있는지 확인하세요.</string>
+    <string name="please_select_a_model_first">먼저 모델을 선택하세요</string>
+    <string name="waiting_for_services_to_initialize">서비스 초기화를 기다리는 중...</string>
+    <string name="speech_recognition_requires_audio_permission">음성 인식을 사용하려면 오디오 권한이 필요합니다</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## ChatActivity.java -->
+    <!-- Toast.makeText -->
+    <string name="error_initializing_services">서비스 초기화 오류: </string>
+    <string name="initializing_model_with">%1$s 모델을 초기화하는 중</string>
+    <string name="speech_recognition_is_disabled">음성 인식이 비활성화됨</string>
+    <string name="error_generating_response">응답 생성 오류</string>
+    <string name="stopping_generation">생성 중지 중...</string>
+    <string name="error_analyzing_image">이미지 분석 오류</string>
+    <string name="ASR_service_not_ready">ASR 서비스 준비되지 않음</string>
+    <string name="error_launching_camera">카메라 실행 오류</string>
+    <string name="no_recordings_found">녹음된 파일이 없습니다</string>
+    <string name="recording_deleted">녹음 파일이 삭제되었습니다</string>
+    <string name="camera_permission_required">사진 촬영을 위해 카메라 권한이 필요합니다</string>
+    <string name="mic_permission_required">음성 입력을 위해 마이크 권한이 필요합니다</string>
+    <string name="text_to_speech_service_not_available">텍스트 음성 변환 서비스 이용 불가</string>
+    <string name="text_to_speech_is_still_initializing">텍스트 음성 변환 초기화 중...</string>
+    <string name="converting_text_to_speech">텍스트를 음성으로 변환하는 중...</string>
+    <string name="error_playing_audio">오디오 재생 오류</string>
+    <string name="error_starting_audio_playback">오디오 재생 시작 오류</string>
+    <string name="failed_to_reinitialize_llm">LLM 재초기화 실패</string>
+    <string name="initializing_model">모델 초기화 중...</string>
+    <string name="failed_to_initialize_model">모델 초기화 실패</string>
+    <string name="error_initializing_model">모델 초기화 오류</string>
+    <string name="model_service_disconnected">모델 서비스 연결 끊김</string>
+    <string name="ars_initialization_failed">ASR 초기화 실패</string>
+    <string name="error_initializing_asr">ASR 초기화 오류: </string>
+    <string name="initializing_text_to_speech">텍스트 음성 변환 초기화 중...</string>
+    <string name="text_to_speech_ready">텍스트 음성 변환 준비 완료</string>
+    <string name="failed_to_initialize_text_to_speech">텍스트 음성 변환 초기화 실패</string>
+    <string name="error_initialize_text_to_speech">텍스트 음성 변환 초기화 오류: </string>
+    <string name="no_histories_selected">선택된 대화 기록 없음</string>
+    <string name="selected_histories_deleted">선택한 대화 기록이 삭제되었습니다</string>
+    <string name="history_deleted">대화 기록 삭제됨</string>
+    <string name="more_taps">%1$d번 더 탭하세요...</string>
+    <string name="text_copied_to_clipboard">텍스트가 클립보드에 복사되었습니다</string>
+    <string name="image_saved_to_pictures">이미지가 "Pictures" 폴더에 저장되었습니다</string>
+    <string name="error_saving_image">이미지 저장 오류</string>
+
+    <!-- binding.modelNameText.setText -->
+    <string name="unknown_model">알 수 없는 모델</string>
+    <string name="model_error">모델 오류</string>
+    <string name="model_disconnected">모델 연결 끊김</string>
+    <string name="initializing">초기화 중...</string>
+    <string name="model_not_available">모델 사용 불가</string>
+
+    <string name="delete_selected_histories">선택된 대화 기록 삭제</string>
+    <string name="check_delete">선택한 %1$d개의 대화 기록을 삭제하시겠습니까?</string>
+    <string name="delete">삭제</string>
+    <string name="cancel">취소</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_audio_chat.xml -->
+    <string name="choose_voice">음성 선택</string>
+    <string name="toggle_camera">카메라 전환</string>
+    <string name="toggle_microphone">마이크 전환</string>
+    <string name="more_options">더 보기</string>
+    <string name="close">닫기</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_chat.xml -->
+    <string name="message">메시지</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_main.xml -->
+    <string name="device_nformation">기기 정보</string>
+    <string name="engine_status">엔진 상태</string>
+    <string name="model_settings">모델 설정</string>
+    <string name="history_lookback">대화 기록 확인:</string>
+    <string name="max_sequence_Length">최대 시퀀스 길이:</string>
+    <string name="temperature">온도:</string>
+    <string name="llm_backend">LLM 백엔드:</string>
+    <string name="llm_engine">LLM 엔진:</string>
+    <string name="vlm_engine">VLM 엔진:</string>
+    <string name="asr_engine">ASR 엔진:</string>
+    <string name="tts_engine">TTS 엔진:</string>
+    <string name="start_chat">채팅 시작</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## dialog_voice_selection.xml -->
+    <string name="start_new_chat">새 채팅 시작</string>
+    <string name="choose_a_voice">음성 선택</string>
+
+
+
+</resources>

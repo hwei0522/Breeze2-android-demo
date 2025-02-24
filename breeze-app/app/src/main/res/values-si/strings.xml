@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breeze2-demo</string>
+    <string name="file_provider_authority">${file_provider_authority}</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## IntroDialog.java -->
+    <!-- Intro Dialog Title -->
+    <string name="intro_dialog_title_warning">උදාහරණ සංස්කරණයෙන් දැනුම් දීම</string>
+    <string name="intro_dialog_title_current_features">වත්මන් අංග</string>
+    <string name="intro_dialog_title_system_requirements">පද්ධති අවශ්‍යතා</string>
+
+    <!-- Intro Dialog Page 1 : Demo Version Warning -->
+    <string name="intro_description">
+        <![CDATA[
+        මෙය AI හැකියාවන් සෘජුව ඔබගේ දුරකථනයට ගෙන ඒමට ඉදිරිපත් කරන ප්‍රජා-යෝජිත ව්‍යාපෘතියක් වේ,
+        ඔබට <b>AI හැකියාවන් සම්පූර්ණයෙන්ම ඔෆ්ලයින්</b> අත්දැකීම ලබා දීම සඳහා රහස්‍යතාව අවධානයට ගනිමින්.
+        <br/><br/>
+        මුලික ව්‍යාපෘතියක් ලෙස, අපි සංවර්ධකයින් සහ ආශාවක් සහිත අයවල් එමඟින් මෙම යෙදුම සංවර්ධනය කිරීම සඳහා සාදරයෙන් පිළිගනිමු.
+        ඔබට ස්ථාවරතා ගැටළු කිහිපයක් පෙනී යාමට හැකි විය හැක, අපි පසුබැසීම හරහා පලපුරුදු අත්දැකීම වැඩි දියුණු කරමින් සිටිමු.
+        <br/><br/>
+        කරුණාකර අපගේ GitHub ගිත්තු ගබඩාවෙන් දායක වීමට, ගැටළු ඇති කිරීමට, හෝ PRs යොමු කිරීමට ඉඩ දෙනු ඇත:
+        <br/>
+        <a href="https://github.com/mtkresearch/Breeze2-android-demo">Breeze2-android-demo</a>
+        ]]>
+    </string>
+
+    <!-- Intro Dialog Page 2 : Current Features -->
+    <string name="build_features_description">
+        <![CDATA[
+        • ස්ථානයේ LLM සාකච්ඡාව:<br/>
+        &nbsp;&nbsp;&nbsp;- AI සමඟ සම්පූර්ණයෙන්ම ඔෆ්ලයින් සාකච්ඡාව<br/>
+        &nbsp;&nbsp;&nbsp;- CPU සහ MTK NPU දෙකම සහය දක්වයි<br/>
+        &nbsp;&nbsp;&nbsp;- රහස්‍යතා ප්‍රථම: සියලු දත්ත උපාංගයේ පවතී<br/>
+        &nbsp;&nbsp;&nbsp;- පෙළ-සිට කථනය සහාය<br/>
+        <br/><br/>
+        • ඉදිරි අංග (ඉක්මනින් පැමිණෙනවා):<br/>
+        &nbsp;&nbsp;&nbsp;- දෘශ්‍ය අවබෝධය (VLM)<br/>
+        &nbsp;&nbsp;&nbsp;- ශ්‍රව්‍ය ආදානය සහාය (ASR)
+        <br/><br/>
+        රහස්‍යතාව මත පදනම්ව AI අත්දැකීමක් තනන්න අප හා එකතු වෙන්න!
+        ]]>
+    </string>
+
+    <!-- Intro Dialog Page 3 : System Requirements -->
+    <!-- RAM status -->
+    <string name="ram_passed">✅ පිටුබැලූ</string>
+    <string name="ram_error">⛔️ දෝෂය: අඩු RAM (%1$sGB &lt; %2$sGB අවශ්‍ය)</string>
+
+    <!-- memory status -->
+    <string name="storage_sufficient">✅ ප්‍රමාණවත් (%1$sGB ලබා ගත හැක)</string>
+    <string name="storage_error">⛔️ දෝෂය: ප්‍රමාණවත් තැටියක් නොමැත (කෙසේවත් %1$sGB පමණක් ලබා ඇත)</string>
+
+    <!-- model status -->
+    <string name="model_found">✅ ආදර්ශය හමු විය</string>
+    <string name="model_missing">⛔️ ආදර්ශය අයිති නොවීම</string>
+
+    <!-- warning message -->
+    <string name="warning_ram"><![CDATA[⚠️ දැනුම් දීම: ඔබගේ උපාංගය අවශ්‍ය RAM අවශ්‍යතා සපුරාලනません.<br/>]]></string>
+    <string name="warning_model_missing"><![CDATA[⚠️ දැනුම් දීම: අවශ්‍ය ආදර්ශ ගොනු (%1$s හෝ %2$s) අයිති නොවීම.<br/>]]></string>
+    <string name="warning_storage"><![CDATA[⚠️ දැනුම් දීම: ප්‍රමාණවත් තැටියක් නොමැත (%1$sGB &lt; %2$sGB අවශ්‍ය).<br/>]]></string>
+    <string name="warning_footer"><![CDATA[යෙදුම නිවැරදිව ක්‍රියාත්මක නොවී හැකි වේ.<br/>]]></string>
+
+    <!-- status summary -->
+    <string name="status_summary">
+         <![CDATA[
+        • RAM මතකය:<br/>
+        &nbsp;&nbsp;&nbsp;අවශ්‍ය: %1$sGB+<br/>
+        &nbsp;&nbsp;&nbsp;ඔබගේ උපාංගය: %2$sGB<br/>
+        &nbsp;&nbsp;&nbsp;අවස්ථාව: %3$s<br/><br/>
+
+        • ආදර්ශ ගොනු:<br/>
+        &nbsp;&nbsp;&nbsp;ස්ථානය: %4$s<br/>
+        &nbsp;&nbsp;&nbsp;අවශ්‍ය: %5$s හෝ %6$s<br/>
+        &nbsp;&nbsp;&nbsp;අවස්ථාව: %7$s<br/><br/>
+
+        • තැටිය:<br/>
+        &nbsp;&nbsp;&nbsp;අවශ්‍ය: %8$sGB+ නිදහස් තැටිය<br/>
+        &nbsp;&nbsp;&nbsp;ලබාගත හැකි: %9$sGB<br/>
+        &nbsp;&nbsp;&nbsp;අවස්ථාව: %10$s<br/><br/>
+
+        %11$s
+        <br/>
+        උපරිම ක්‍රියාකාරීත්වය සඳහා සියලු අවශ්‍යතා සපුරාලන බවට සහතික වන්න.
+        ]]>
+    </string>
+
+    <!-- Intro Dialog util -->
+    <string name="next">ඊළඟ</string>
+    <string name="got_it">සමාවන්න</string>
+    <string name="requirements_not_met">අවශ්‍යතා සපුරාලන නොහොත්</string>
+    <string name="cannot_proceed">ඉදිරියට යා නොහැක:</string>
+    <string name="insufficient_ram">• අඩු RAM (අවශ්‍ය අනිවාර්ය %1$dGB)</string>
+    <string name="insufficient_storage">• ප්‍රමාණවත් තැටියක් නොමැත (අවශ්‍ය අනිවාර්ය %1$dGB)</string>
+    <string name="missing_models">• අවශ්‍ය ආදර්ශ ගොනු (%1$s හෝ %2$s) අයිති නොවීම</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## ChatActivity.java -->
+    <string name="thinking">විචාරය කරනවා...</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_chat.xml -->
+    <string name="view_chat_history">සාකච්ඡා ඉතිහාසය පෙන්වන්න</string>
+    <string name="loading">ලෝඩ් කරනවා...</string>
+    <string name="new_conversation">නව සාකච්ඡාව</string>
+    <string name="app_logo">යෙදුම් ලාංඡනය</string>
+    <string name="how_can_i_help_you">ඔබට කෙසේ උදව් කළ හැකි ද?</string>
+    <string name="type_in_here">මෙතන ටයිප් කරන්න...</string>
+    <string name="chat_history">සාකච්ඡා ඉතිහාසය</string>
+    <string name="send_message">පණිවිඩය එවන්න</string>
+    <string name="voice_input">ශබ්ද ආදානය</string>
+    <string name="add_attachments">අමුණන්න</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## intro_page_layout.xml -->
+    <string name="scroll_for_more">තවත් පෙන්වීමට ස්ක්රෝල් කරන්න</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## ChatMediaHandler.java -->
+    <string name="failed_to_start_recording">ඇරීම ආරම්භ කිරීමට වරද</string>
+    <string name="failed_to_process_file">ගොනුව සැකසීමට වරද</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## UiUtils.java -->
+    <string name="error_showing_image_preview">රූප පෙරදැක්ම පෙන්වීමට වරද</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## AudioChatActivity.java -->
+    <string name="camera_switched">කැමරා %1$s වෙත මාරු විය</string>
+    <string name="camera_front">ඉදිරි</string>
+    <string name="camera_back">පසුබැසීම</string>
+    <string name="menu_options">පැමිණි මෙනු විකල්ප</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## MainActivity.java -->
+    <string name="failed_to_initialize">ආරම්භ කිරීමට වරද: </string>
+    <string name="model_directory_not_found">ආදර්ශ අඩවිය සොයා ගත නොහැක</string>
+    <string name="no_llm_models_found">LLM ආදර්ශ කිසිවක් සොයා ගත නොහැකි. කරුණාකර %1$s හෝ %2$s ආදර්ශයක් පවත්වා ඇති බව සහතික කරන්න.</string>
+    <string name="please_select_a_model_first">කරුණාකර මුලින්ම ආදර්ශයක් තෝරන්න</string>
+    <string name="waiting_for_services_to_initialize">සේවා ආරම්භ වීමට රැදී සිටීම</string>
+    <string name="speech_recognition_requires_audio_permission">ශබ්ද හැඳින්වීම සඳහා සංගීත අවසරය අවශ්‍යයි</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## ChatActivity.java -->
+    <!-- Toast.makeText -->
+    <string name="error_initializing_services">සේවා ආරම්භ කිරීමට වරද: </string>
+    <string name="initializing_model_with">ආදර්ශය ආරම්භ කිරීම </string>
+    <string name="speech_recognition_is_disabled">ශබ්ද හැඳින්වීම අක්‍රිය වී ඇත</string>
+    <string name="error_generating_response">ප්‍රතිචාරය සෑදීමට වරද</string>
+    <string name="stopping_generation">ඉදිරියට සෑදීම නතර කරමින්...</string>
+    <string name="error_analyzing_image">රූප විශ්ලේෂණයට වරද</string>
+    <string name="ASR_service_not_ready">ASR සේවාව hazır නොවේ</string>
+    <string name="error_launching_camera">කැමරා ආරම්භ කිරීමට වරද</string>
+    <string name="no_recordings_found">සටහන් කිසිවක් සොයා ගත නොහැක</string>
+    <string name="recording_deleted">සටහන මකා දැමීම</string>
+    <string name="camera_permission_required">ඡායාරූප ලබා ගැනීම සඳහා කැමරා අවසරය අවශ්‍යයි</string>
+    <string name="mic_permission_required">ශබ්ද ආදානය සඳහා මයික් අවසරය අවශ්‍යයි</string>
+    <string name="text_to_speech_service_not_available">පෙළ-සිට කථනය සේවාව ලබා දීමට නොහැකි</string>
+    <string name="text_to_speech_is_still_initializing">පෙළ-සිට කථනය ආරම්භ කිරීම තවමත් සිදු කරයි...</string>
+    <string name="converting_text_to_speech">පෙළ-සිට කථනයට පරිවර්තනය කිරීම...</string>
+    <string name="error_playing_audio">ශබ්දය පටිගත කිරීමට වරද</string>
+    <string name="error_starting_audio_playback">ශබ්ද ආදන ආරම්භ කිරීමට වරද</string>
+    <string name="failed_to_reinitialize_llm">LLM නැවත ආරම්භ කිරීමට වරද</string>
+    <string name="initializing_model">ආදර්ශය ආරම්භ කිරීම...</string>
+    <string name="failed_to_initialize_model">ආදර්ශය ආරම්භ කිරීමට වරද</string>
+    <string name="error_initializing_model">ආදර්ශය ආරම්භ කිරීමට වරද</string>
+    <string name="model_service_disconnected">ආදර්ශ සේවාව සම්බන්ධ නොවීම</string>
+    <string name="ars_initialization_failed">ASR ආරම්භ කිරීම අසමත් විය</string>
+    <string name="error_initializing_asr">ASR ආරම්භ කිරීමේ වරද: </string>
+    <string name="initializing_text_to_speech">පෙළ-සිට කථනය ආරම්භ කිරීම...</string>
+    <string name="text_to_speech_ready">පෙළ-සිට කථනය සඳහා සූදානම්</string>
+    <string name="failed_to_initialize_text_to_speech">පෙළ-සිට කථනය ආරම්භ කිරීමට වරද</string>
+    <string name="error_initialize_text_to_speech">පෙළ-සිට කථනය ආරම්භ කිරීමේ වරද: </string>
+    <string name="no_histories_selected">කිසිදු ඉතිහාසයක් තෝරා ගනු ලැබීමක් නැත</string>
+    <string name="selected_histories_deleted">තෝරාගත් ඉතිහාස මකා දැමීම</string>
+    <string name="history_deleted">ඉතිහාසය මකා දැමීම</string>
+    <string name="more_taps">%1$d තවත් ස්ථානය%2$s...</string>
+    <string name="text_copied_to_clipboard">පෙළ සටහන් පුවරුවට ප kopi කරයි</string>
+    <string name="image_saved_to_pictures">රූපය පින්තූර වලට සුරකින ලදි</string>
+    <string name="error_saving_image">රූපය සුරැකීමට වරද</string>
+
+    <!-- binding.modelNameText.setText -->
+    <string name="unknown_model">අදෘශ්‍ය ආදර්ශය</string>
+    <string name="model_error">ආදර්ශය වරද</string>
+    <string name="model_disconnected">ආදර්ශය සම්බන්ධ නොවීම</string>
+    <string name="initializing">ආරම්භ කරනවා...</string>
+    <string name="model_not_available">ආදර්ශය ලබා දීමට නොහැකි</string>
+
+    <string name="delete_selected_histories">තෝරාගත් ඉතිහාස මකා දැමීම</string>
+    <string name="check_delete">ඔබට %1$d තෝරාගත් ඉතිහාස මකා දැමීමට අවශ්‍යද?</string>
+    <string name="delete">මකා දැමීම</string>
+    <string name="cancel">ඉවත් කිරීම</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_audio_chat.xml -->
+    <string name="choose_voice">දැක්ම තෝරන්න</string>
+    <string name="toggle_camera">කැමරාව මාරු කරන්න</string>
+    <string name="toggle_microphone">මයික්රෝෆෝන් මාරු කරන්න</string>
+    <string name="more_options">තවත් විකල්ප</string>
+    <string name="close">අවසානය</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_chat.xml -->
+    <string name="message">පණිවිඩය</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## activity_main.xml -->
+    <string name="device_nformation">උපාංග තොරතුරු</string>
+    <string name="engine_status">එන්ජින් තත්ත්වය</string>
+    <string name="model_settings">ආදර්ශ සැකසුම්</string>
+    <string name="history_lookback">ඉතිහාස සොයා බැලීම:</string>
+    <string name="max_sequence_Length">අගාධ පෙළ දිග:</string>
+    <string name="temperature"> උෂ්ණත්වය:</string>
+    <string name="llm_backend">LLM බෙහෙත්</string>
+    <string name="llm_engine">LLM එන්ජින්</string>
+    <string name="vlm_engine">VLM එන්ජින්</string>
+    <string name="asr_engine">ASR එන්ජින්</string>
+    <string name="tts_engine">TTS එන්ජින්</string>
+    <string name="start_chat">සාකච්ඡාව ආරම්භ කිරීම</string>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- ## dialog_voice_selection.xml -->
+    <string name="start_new_chat">නව සාකච්ඡාව ආරම්භ කරන්න</string>
+    <string name="choose_a_voice">ඔබගේ ස්වරය තෝරන්න</string>
+
+</resources>
