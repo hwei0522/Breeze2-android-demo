@@ -191,6 +191,9 @@
     <string name="delete">මකා දැමීම</string>
     <string name="cancel">ඉවත් කිරීම</string>
 
+    <string name="please_wait_for_the_response_to_finish">ප්‍රතිචාරය අවසන් වන විට ඉඩ ලබා දෙන්න</string>
+    <string name="type_a_message">පණිවිඩයක් ටයිප් කරන්න...</string>
+
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!-- ## activity_audio_chat.xml -->
     <string name="choose_voice">දැක්ම තෝරන්න</string>
